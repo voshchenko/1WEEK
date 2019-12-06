@@ -252,7 +252,7 @@ namespace week_1
                                 for (int b = 1; b <= res; b++)
                                 {
                                     if(b==res)
-                                    Console.WriteLine("{0}*{1}={2} ", b, a, (a * b));
+                                    Console.WriteLine("{0}*{1}={2} разряд {3} ", b, a, (a * b), ((int)Math.Log10(a* b) + 1));
                                 }
                             }
                             break;
@@ -261,8 +261,19 @@ namespace week_1
                         {
                             Console.Write("Введите N  \n");
                             int res = int.Parse(Console.ReadLine());
-                            for (int pow = 0; pow <= 20; pow++)
-                                 Console.WriteLine($"{res}^{pow} = {(long)Math.Pow(res, pow):N0} разрядов - {(int)Math.Log10((long)Math.Pow(res, pow))+1}");
+                            int m = 0;
+                            for (int pow = 1; pow <= res; pow++)
+                            {
+                                m = (pow * pow);
+                                if (m >= res)
+                                    break;
+
+                                else
+                                        {
+                                           Console.WriteLine($"{pow} квадрат  {m} ");
+                                        }
+                                
+                            }
                                 break;
                         }
                     case 11:
