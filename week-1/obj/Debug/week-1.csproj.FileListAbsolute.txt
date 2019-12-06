@@ -1,0 +1,6 @@
+F:\app\week-1\bin\Debug\week-1.exe.config
+F:\app\week-1\bin\Debug\week-1.exe
+F:\app\week-1\bin\Debug\week-1.pdb
+F:\app\week-1\obj\Debug\week-1.csprojAssemblyReference.cache
+F:\app\week-1\obj\Debug\week-1.exe
+F:\app\week-1\obj\Debug\week-1.pdb
