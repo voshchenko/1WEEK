@@ -1,0 +1,202 @@
+*{
+font-family: 	Verdana;
+padding: 0;
+margin: 0;
+}
+
+.Checkoutform
+{
+margin-left: 22px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-size: 16pt;
+}
+
+body{
+background: linear-gradient(180deg, rgb(196, 192, 251), #BFA7E1, #1e2051);
+background-size: 100%;
+}
+
+textarea{
+text-indent: 5px;	
+}
+input{
+text-indent: 5px;
+}
+
+form
+{
+background: #F0F0F8;
+width: 450px;
+height: 607px;
+margin: 35px;
+box-shadow: 0px 0px 10px #313167;
+display:block;
+}
+
+.personaform, .location, .pay
+{
+background: #faf9fe;
+border-top:2px solid #E7E8EC; 
+padding-top: 19px;
+padding-bottom: 19px;
+}
+
+#firstname, #lastname, #email, #phone
+{
+width: 184px;
+height: 22px;
+margin-left: 22px;
+}
+
+#firstname, #lastname
+{
+margin-bottom: 14px;
+}
+
+#country
+{
+width: 150px;
+height: 26px;
+margin-left: 22px;
+}
+
+#city
+{
+width: 110px;
+height: 22px;
+margin-left: 22px;
+}
+
+#postcode
+{
+width: 81px;
+height: 22px;
+margin-left: 22px;
+}
+
+#address
+{
+width: 398px;
+height: 22px;
+margin-left: 22px;
+margin-top: 14px;
+margin-bottom: 14px;
+}
+
+#comment
+{
+width: 400px;
+height: 54px;
+resize: none;
+margin-left: 22px;
+}
+
+#vs, #mc, #pp
+{
+margin-left: 22px;
+}
+
+label
+{
+font-size: 12px;
+vertical-align: 6px;
+}
+
+#namecard 
+{
+width: 398px;
+height: 22px;
+margin-left: 22px;
+margin-top: 14px;
+}
+
+#cardnum
+{
+width: 320px;
+height: 22px;
+margin-left: 22px;
+margin-top: 14px;
+}
+
+#cvv
+{
+width: 46px;
+height: 22px;
+margin-left: 22px;
+margin-top: 14px;
+margin-bottom: 14px;
+}
+
+#exdate
+{
+margin-left: 22px;
+font-size: 10px;
+}
+
+#month
+{
+width: 150px;
+height: 26px;
+margin-left: 64px;
+}
+
+#year
+{
+width: 80px;
+height: 22px;
+margin-left: 22px;
+}
+
+.button
+{
+text-align: right;
+padding-top: 20px;
+padding-bottom: 20px;
+border-top: 2px solid #E7E8EC;
+}
+#bttm
+{
+margin-right: 25px;
+width: 85px;
+height: 30px;
+background: #B95CC9;
+border-style: none;	
+color: #fff;
+}
+
+input[type='radio'] {
+  position: relative;
+  height: 22px;
+  width: 22px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+}
+
+input[type='radio']::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border: 2px solid #B95CC9;
+}
+
+input[type='radio']:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #B95CC9;
+  transform: translate(-50%, -50%);
+  visibility: visible;
+}
