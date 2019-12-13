@@ -1,0 +1,44 @@
+*{
+font-family: 	Arial;
+padding: 50px;
+}
+ 
+	.tab { 
+    width: 300px;
+    border: 1px solid #a52a2a;
+    border-collapse: collapse;
+    border-spacing: 0;
+   }
+   
+   .tab th {
+    background:#1E90FF;
+    color: white; 
+	border-right: 1px solid black;
+   }
+   .tab td { 
+    border-bottom: 1px solid black;
+	border-right: 1px solid black;
+   }
+   .tab td, .tab th {
+    padding: 4px;
+   }
+   .first
+   {
+	background: #87CEEB; 
+cursor: pointer;	
+   }
+   .second
+   {
+	 background: #ADD8E6; 
+cursor: pointer;	 
+   }
+   
+   tr:hover {
+	text-decoration: none; /* Убираем подчеркивание */
+    background: #FFE4E1;
+	
+   }
+   
+   
+   
+   
